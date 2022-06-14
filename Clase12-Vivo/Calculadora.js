@@ -1,4 +1,8 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
-let nombre = prompt("Ingrease su nombre: ");
-console.log(nombre);
+let operacionSuma = (num1, num2) => {
+    return num1 + num2;
+}
+
+let rsultado = operacionSuma(3,4);
+console.log(rsultado);
